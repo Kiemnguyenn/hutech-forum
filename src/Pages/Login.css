@@ -1,0 +1,87 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-top: 100px;
+}
+  
+.flex-container > div {
+    background-color: white;
+    width: 700px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    align-self: center;
+}
+
+.formLogin {
+    background-color: White;
+    text-align: center;
+    width: 500px;
+    margin: 10px;
+    padding:10px;
+}
+
+.hutech-logo {
+    width:300px;
+    height:auto;
+}
+
+form {
+    padding: 20px;
+}
+
+.fromInput {
+    padding: 10px;
+}
+
+.input-login {
+    border: 3px solid #f1f1f1;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 50px 20px 20px;
+    margin: 10px;
+}
+
+.btLogin{
+    width: 100%;
+    height: auto;
+    border: none;
+    color: white;
+    background-color: deepskyblue;
+    font-size: 1rem;
+    padding: 20px 50px 20px 20px;
+    margin: 10px;
+}
+
+.forgot-password {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.hr-login {
+    margin: 20px;
+}
+
+.btLogins {
+    width: 100%;
+    height: auto;
+    border: none;
+    font-size: 1rem;
+    padding: 20px 50px 20px 20px;
+    margin: 0px;
+    color: white;
+    background-color: DarkTurquoise;
+}
+
+.copyright {
+    font-size: 1rem;
+    color: Gray;
+}

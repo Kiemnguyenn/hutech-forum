@@ -1,0 +1,134 @@
+.flex-containerss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-top: 50px;
+}
+  
+.flex-containerss > * {
+    /* border: 1px solid black; */
+    width: 70%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    align-self: center;
+}
+
+.group-ul {
+  list-style-type: none;
+  display: inline;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.group-li {
+    position: relative;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.group-li {
+  display: flex;
+  float: left;
+  color: black;
+  padding: 14px 16px;
+}
+
+.group-ul .group-li:hover {
+    color:black;
+    cursor: pointer;
+}
+
+.group-li:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.group-li:hover:after {
+    width: 100%;
+}
+
+.groupss {
+    display: none;
+}
+
+.group-hr {
+    border: none;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+.show-groupss {
+    display: block;
+}
+
+.group-h1 {
+    margin-bottom: 10px;
+}
+
+.group-join {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+}
+
+.group-image {
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.group-image > *{
+    line-height: 75px;
+}
+
+.Gimage {
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.group-name {
+    width: 100%;
+    margin: 0 20px;
+}
+
+.group-menber {
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+.btn-join {
+    float: right;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    color: deepskyblue;
+}
+
+.about-us {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: gray;
+}

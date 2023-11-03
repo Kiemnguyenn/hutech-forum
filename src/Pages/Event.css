@@ -1,0 +1,106 @@
+.event-flex-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-left: 200px;
+    width: 90%;
+    margin-top: 50px;
+}
+  
+.event-flex-containers > * {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+.event-title {
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.event-select-btn {
+    width: auto;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.event-sBtn-text {
+    padding-right: 50px;
+}
+
+.event-join {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.event-image {
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.event-image > *{
+    line-height: 75px;
+}
+
+.Eimage {
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+}
+
+.event-name {
+    width: 100%;
+    margin: 0 30px;
+}
+
+.event-date {
+    font-size: 1rem;
+    color: red;
+    margin: 10px 0;
+}
+
+.event-dates {
+    font-size: 1rem;
+    color: gray;
+    margin: 10px 0;
+}
+
+.event-theme {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.event-menber {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-size: 1rem;
+}
+
+.event-address {
+    color: gray;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.btn-join {
+    float: right;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    color: deepskyblue;
+}
